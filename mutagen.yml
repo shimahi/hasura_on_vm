@@ -2,7 +2,7 @@ sync:
   app:
     mode: "two-way-resolved"
     alpha: "./"
-    beta: "hasura_st:/home/vagrant/app"
+    beta: "hasura-st:/home/vagrant/app"
     ignore:
       vcs: true
       paths:

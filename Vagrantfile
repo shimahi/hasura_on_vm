@@ -2,7 +2,7 @@ Vagrant.configure('2') do |config|
   config.vm.box = 'ubuntu/xenial64'
 
   # アプリ名
-  config.vm.hostname = 'hasura_st'
+  config.vm.hostname = 'hasura-st'
 
   # コンテナを立てるIP, マシンの /private/etc/hostsで指定したもの
   config.vm.network :private_network, ip: '192.168.33.10'
